@@ -3,6 +3,14 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+/target/
+pom.xml.tag
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+# Spring Boot specific
+*.log
+.env
 
 ### STS ###
 .apt_generated
