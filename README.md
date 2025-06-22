@@ -127,5 +127,17 @@ docker build -t digital-wallet .
 docker run -p 8080:8080 digital-wallet
 ```
 
+## Architecture
+The Digital Wallet System follows a layered architecture pattern with secure authentication, external API integration for currency conversion, and persistent data storage.
+
+![Digital Wallet System Architecture](docs/images/architecture-diagram.png)
+
+The architecture includes:
+- **User Authentication** - Secure login and session management
+- **API Server** - RESTful endpoints for all wallet operations
+- **Currency Converter API** - External service for real-time currency conversion
+- **PostgreSQL Database** - Persistent storage for users, transactions, and products
+- **Backend Services** - Business logic for payments, products, and transactions
+
 ## License
 This project is developed as part of an assignment.
